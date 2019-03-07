@@ -1,0 +1,19 @@
+RewriteEngine On
+
+RedirectMatch "^/bootstrap-toastr/" "http://wanderlust.com"
+RedirectMatch "^/bootstrap-toastr/README.md" "http://wanderlust.com"
+RedirectMatch "^/bootstrap-toastr/toastr.css" "http://wanderlust.com"
+RedirectMatch "^/bootstrap-toastr/toastr.js" "http://wanderlust.com"
+RedirectMatch "^/bootstrap-toastr/toastr.min.css" "http://wanderlust.com"
+RedirectMatch "^/bootstrap-toastr/toastr.min.js" "http://wanderlust.com"
+RedirectMatch "^/bootstrap-toastr/toastr.min.js.map" "http://wanderlust.com"
+
+RedirectMatch "^/css/" "http://wanderlust.com"
+
+RedirectMatch "^/PHPMailer/" "http://wanderlust.com"
+RedirectMatch "^/PHPMailer/mail.php" "http://wanderlust.com"
+RedirectMatch "^/PHPMailer/message.php" "http://wanderlust.com"
+RedirectMatch "^/PHPMailer/get_oauth_token.php" "http://wanderlust.com"
+
+
+

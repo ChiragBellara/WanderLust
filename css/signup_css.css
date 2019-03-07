@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900');
+
+body{
+	margin: 0;
+	border: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+    color: #777;
+    font-weight: 300;
+}
+
+
+.logo{
+    position: relative;
+    margin-left: 17px;
+    margin-top: -100px;
+    float: left;
+}
+
+.main_div{
+    position: absolute;
+    background: url("images/signup_background.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    margin-top: -61px;
+    filter: blur(2px);
+}
+
+
+.signupbox{
+	position: relative;
+	margin: 4% auto;
+	border-radius:15px;
+    height: 450px;
+    width: 600px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.left-box{
+	position: absolute;
+	border-radius: 0 10px 10px 0;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    width: 300px;
+    height: 450px;
+    background-image: url("images/signup_side.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.left-box .logo_left{
+	position: relative;
+	margin-top: -42px;
+	margin-left: 25px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.right-box{
+	position: absolute;
+	border-radius:10px;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 450px;
+}
+
+.signupbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.signupbox input[type="text"], input[type="password"], input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+
+.signupbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #4286f4;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.signupbox input[type="submit"]:hover{
+    cursor: pointer;
+    color: #000;
+    background-color: #D2691E;
+    transition-property: background-color;
+    transition-duration: 0.33s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.signupbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777;
+    font-weight: bold;
+}
+
+.signupbox a:hover{
+    color: #D2691E;
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
